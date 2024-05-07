@@ -52,7 +52,8 @@
     }
 
     a {
-      color: var(--wpe--navigation-menu--color);
+      //color: var(--wpe--navigation-menu--color);
+      color: var(--wpe--color--black);
       padding: 0.5rem;
       display: block;
       transition: all 0.2s ease-out;

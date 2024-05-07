@@ -47,7 +47,7 @@ const ProductMeta = ({
                 href={`/product-collection/${collection.handle}`}
                 key={`product-collection-link-${index}`}
               >
-                <a>{collection.title}</a>
+                {collection.title}
               </Link>
             </span>
           ))}
@@ -71,7 +71,7 @@ const ProductMeta = ({
             left at this price
           </b>
         </p>
-        <label style={{ display: 'block' }} for="quantity">
+        <label style={{ display: 'block' }} htmlFor="quantity">
           Quantity:
         </label>
         <input

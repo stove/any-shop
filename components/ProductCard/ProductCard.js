@@ -14,7 +14,7 @@ const ProductCard = ({ product }) => {
     <li className={cx([styles.column, styles.productWrapper])}>
       <div className={styles.productImageContainer}>
         <Link href={productHref}>
-          <a>
+
             {product?.variants?.nodes[0]?.compareAtPrice ? (
               <span className={styles.onSale}>Sale</span>
             ) : null}
@@ -27,13 +27,13 @@ const ProductCard = ({ product }) => {
               width="234"
               height="180"
             />
-          </a>
+
         </Link>
       </div>
       <div className={styles.productInfoContainer}>
         <p className={styles.productTitle}>
           <Link href={productHref}>
-            <a>{product?.title}</a>
+            {product?.title}
           </Link>
         </p>
         <div className={styles.productPrice}>

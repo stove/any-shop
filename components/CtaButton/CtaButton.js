@@ -22,8 +22,8 @@ const CtaButton = ({
 }) => {
   return ctaLink ? (
     <div className={styles.buttonContainer} onClick={ctaClick}>
-      <Link href={ctaLink}>
-        <a className={styles.button}>{ctaLabel}</a>
+      <Link href={ctaLink} className={styles.button}>
+        {ctaLabel}
       </Link>
     </div>
   ) : (

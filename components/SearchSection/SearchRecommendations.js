@@ -14,7 +14,7 @@ export default function SearchRecommendations({ collections }) {
         {collections?.map?.((collection, index) => (
           <li key={collection.title + '-' + index ?? 0}>
             <Link href={'/product-collection/' + collection.handle ?? '#'}>
-              <a>{collection.title}</a>
+              {collection.title}
             </Link>
           </li>
         ))}
