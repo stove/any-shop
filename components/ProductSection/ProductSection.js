@@ -2,7 +2,8 @@ import styles from './ProductSection.module.scss';
 import { ProductCard } from '../ProductCard';
 import { Container } from '../Container';
 import ConnectionUnavailable from '../../utilities/ConnectionUnavailable';
-import shopifyConfiguration from '../../utilities/shopifyConfiguration';
+import shopifyConfiguration from '../../utilities/wooConfiguration';
+//import shopifyConfiguration from '../../utilities/shopifyConfiguration';
 
 const ProductSection = ({ products, heading }) => {
   return (
@@ -16,6 +17,7 @@ const ProductSection = ({ products, heading }) => {
             </li>
           ) : (
             products?.map?.((product) => {
+              console.log("product for card = ", JSON.stringify(product));
               return (
                 <ProductCard
                   key={`${heading}-section-${product.id}`}

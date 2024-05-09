@@ -2,7 +2,8 @@ import { ApolloProvider, gql, useQuery } from '@apollo/client';
 import { getNextServerSideProps } from '@faustwp/core';
 import { BlogInfoFragment } from '../fragments/GeneralSettings';
 import * as MENUS from '../constants/menus';
-import shopifyClient from '../utilities/shopifyClient';
+import shopifyClient from '../utilities/wooClient';
+// import shopifyClient from '../utilities/shopifyClient';
 import { ShopifyCartProvider } from '../hooks/useShopifyCart';
 import {
   Header,

@@ -6,7 +6,9 @@ import { Loader } from '../Loader';
 import { ProductCard } from '../ProductCard';
 import { ShopFilter } from './ShopFilter';
 import { FILTERS } from '../../constants/filters';
-import shopifyConfiguration from '../../utilities/shopifyConfiguration';
+
+//import shopifyConfiguration from '../../utilities/shopifyConfiguration';
+import shopifyConfiguration from '../../utilities/wooConfiguration';
 import ConnectionUnavailable from '../../utilities/ConnectionUnavailable';
 
 /**

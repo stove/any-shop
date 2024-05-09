@@ -21,8 +21,9 @@ export default function Component(props) {
   const { content } = props?.data?.page ?? { title: '' };
 
   const latestProducts = props?.products?.slice(0, 4);
+  console.log("latsestProducts = ", JSON.stringify(latestProducts));
   const saleProducts = props?.products?.filter((product) => {
-    return product.variants.nodes[0].compareAtPrice !== null;
+    return product.variants?.nodes[0]?.compareAtPrice !== null;
   });
 
   return (

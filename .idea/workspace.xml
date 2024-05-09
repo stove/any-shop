@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4604532-bab3-420e-91d7-380fec953e01" name="Changes" comment="First commit.">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a4604532-bab3-420e-91d7-380fec953e01" name="Changes" comment="Merge pull request #351 from wpengine/dependabot/npm_and_yarn/testing-library/jest-dom-6.4.5&#10;&#10;build(deps-dev): Bump @testing-library/jest-dom from 6.4.2 to 6.4.5">
+      <change afterPath="$PROJECT_DIR$/queries/Cart_graphql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ProductCard/ProductCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductCard/ProductCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ProductDetails/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductDetails/ProductDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ProductList/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductList/ProductList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ProductSection/ProductSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductSection/ProductSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SearchSection/SearchSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/SearchSection/SearchSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragments/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/fragments/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/product/[handle].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product/[handle].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queries/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/queries/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/shopifyClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/shopifyClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-templates/front-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-templates/front-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +41,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alvaro Cavalcanti &lt;alvaro.cavalcanti@wpengine.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -68,7 +88,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/snap/phpstorm/387/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;
+    &quot;ts.external.directory.path&quot;: &quot;/snap/phpstorm/390/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;
   }
 }</component>
   <component name="ReactDesignerToolWindowState">
@@ -106,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715109167924</updated>
       <workItem from="1715109170158" duration="20810000" />
-      <workItem from="1715243272616" duration="4619000" />
+      <workItem from="1715243272616" duration="18217000" />
     </task>
     <task id="LOCAL−00001" summary="First commit.">
       <option name="closed" value="true" />
@@ -122,7 +142,14 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1715242651330</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="HeaderSD added">
+      <option name="closed" value="true" />
+      <created>1715266975784</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1715266975784</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +169,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit." />
+    <MESSAGE value="Merge pull request #351 from wpengine/dependabot/npm_and_yarn/testing-library/jest-dom-6.4.5&#10;&#10;build(deps-dev): Bump @testing-library/jest-dom from 6.4.2 to 6.4.5" />
+    <MESSAGE value="HeaderSD added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HeaderSD added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

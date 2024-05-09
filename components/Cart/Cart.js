@@ -5,7 +5,8 @@ import CartTable from './CartTable';
 import CartTotals from './CartTotals';
 import { ProductNotification } from '../ProductNotification';
 import ConnectionUnavailable from '../../utilities/ConnectionUnavailable';
-import shopifyConfiguration from '../../utilities/shopifyConfiguration';
+//import shopifyConfiguration from '../../utilities/shopifyConfiguration';
+import shopifyConfiguration from '../../utilities/wooConfiguration';
 
 /**
  * Render the Cart component.

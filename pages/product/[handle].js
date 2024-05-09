@@ -14,6 +14,7 @@ import {
   ProductDetails,
   SEO,
 } from '../../components';
+//import shopifyConfiguration from '../../utilities/shopifyConfiguration';
 import shopifyConfiguration from '../../utilities/shopifyConfiguration';
 
 export default function Page(props) {

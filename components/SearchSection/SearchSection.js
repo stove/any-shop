@@ -3,7 +3,8 @@ import SearchRecommendations from './SearchRecommendations';
 import SearchResults from './SearchResults';
 import useSearch from '../../hooks/useSearch';
 import styles from './SearchSection.module.scss';
-import shopifyConfiguration from '../../utilities/shopifyConfiguration';
+//import shopifyConfiguration from '../../utilities/shopifyConfiguration';
+import shopifyConfiguration from '../../utilities/wooConfiguration';
 import ConnectionUnavailable from '../../utilities/ConnectionUnavailable';
 
 const SearchSection = ({ collections }) => {

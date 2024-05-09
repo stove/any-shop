@@ -2,13 +2,13 @@ import Link from 'next/link';
 import { CtaButton } from '../CtaButton';
 import classNames from 'classnames/bind';
 import styles from './ProductCard.module.scss';
-import priceFormatter from '../../utilities/priceFormatter';
-
+import he from 'he';
 const cx = classNames.bind(styles);
 
 const ProductCard = ({ product }) => {
   const productHref = `/product/${product?.handle}`;
-  const thumbnail = product?.featuredImage?.url;
+  //const thumbnail = product?.featuredImage?.url;
+  const thumbnail = product?.image?.url;
 
   return (
     <li className={cx([styles.column, styles.productWrapper])}>
@@ -38,25 +38,29 @@ const ProductCard = ({ product }) => {
         </p>
         <div className={styles.productPrice}>
           <span>
-            {product?.variants?.nodes[0]?.compareAtPrice ? (
+         {/*   {product?.variants?.nodes[0]?.compareAtPrice ? (
               <>
                 <del data-testid="compare-price">
                   {priceFormatter(
+
                     product?.variants?.nodes[0]?.compareAtPrice?.amount,
                     product?.variants?.nodes[0]?.compareAtPrice?.currencyCode,
                   )}
                 </del>{' '}
                 {priceFormatter(
+
                   product?.variants?.nodes[0]?.price?.amount,
                   product?.variants?.nodes[0]?.price?.currencyCode,
                 )}
               </>
             ) : (
               priceFormatter(
+
                 product?.variants?.nodes[0]?.price?.amount,
                 product?.variants?.nodes[0]?.price?.currencyCode,
               )
-            )}
+            )}*/}
+            {he.decode(product?.price)}
           </span>
         </div>
         <CtaButton ctaLink={productHref} ctaLabel="View product" />
