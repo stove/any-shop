@@ -33,7 +33,7 @@ const ProductCard = ({ product }) => {
       <div className={styles.productInfoContainer}>
         <p className={styles.productTitle}>
           <Link href={productHref}>
-            {product?.title}
+            {product?.name}
           </Link>
         </p>
         <div className={styles.productPrice}>

@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4604532-bab3-420e-91d7-380fec953e01" name="Changes" comment="Merge pull request #351 from wpengine/dependabot/npm_and_yarn/testing-library/jest-dom-6.4.5&#10;&#10;build(deps-dev): Bump @testing-library/jest-dom from 6.4.2 to 6.4.5">
-      <change afterPath="$PROJECT_DIR$/queries/Cart_graphql.js" afterDir="false" />
+    <list default="true" id="a4604532-bab3-420e-91d7-380fec953e01" name="Changes" comment="first go...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cart/Cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ProductCard/ProductCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductCard/ProductCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ProductDetails/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductDetails/ProductDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ProductList/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductList/ProductList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ProductSection/ProductSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductSection/ProductSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SearchSection/SearchSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/SearchSection/SearchSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fragments/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/fragments/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product/[handle].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product/[handle].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queries/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/queries/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/shopifyClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/shopifyClient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-templates/front-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-templates/front-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ProductCard/ProductCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductCard/ProductCard.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715109167924</updated>
       <workItem from="1715109170158" duration="20810000" />
-      <workItem from="1715243272616" duration="18217000" />
+      <workItem from="1715243272616" duration="18720000" />
     </task>
     <task id="LOCAL−00001" summary="First commit.">
       <option name="closed" value="true" />
@@ -149,7 +134,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1715266975784</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="first go...">
+      <option name="closed" value="true" />
+      <created>1715281842707</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1715281842707</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +163,8 @@
     <MESSAGE value="First commit." />
     <MESSAGE value="Merge pull request #351 from wpengine/dependabot/npm_and_yarn/testing-library/jest-dom-6.4.5&#10;&#10;build(deps-dev): Bump @testing-library/jest-dom from 6.4.2 to 6.4.5" />
     <MESSAGE value="HeaderSD added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HeaderSD added" />
+    <MESSAGE value="first go..." />
+    <option name="LAST_COMMIT_MESSAGE" value="first go..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
