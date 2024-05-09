@@ -40,10 +40,12 @@
     text-align: center;
     height: 200px;
 
+
     .productImage {
       width: 80%;
       height: auto;
       margin: 0 auto;
+      margin-bottom: 20px;
 
       @media (max-width: $breakpoint-extra-small) {
         width: auto;
@@ -62,7 +64,7 @@
       margin-bottom: 1rem;
       font-weight: 300;
       font-size: 1.2em;
-      padding: 20px;
+      padding-top: 20px;
 
       a {
         text-decoration: none;

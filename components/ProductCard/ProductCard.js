@@ -6,7 +6,7 @@ import he from 'he';
 const cx = classNames.bind(styles);
 
 const ProductCard = ({ product }) => {
-  const productHref = `/product/${product?.handle}`;
+  const productHref = `/product/${product?.name}`;
   //const thumbnail = product?.featuredImage?.url;
   const thumbnail = product?.image?.url;
 
@@ -63,7 +63,7 @@ const ProductCard = ({ product }) => {
             {he.decode(product?.price)}
           </span>
         </div>
-        <CtaButton ctaLink={productHref} ctaLabel="View product" />
+        <CtaButton ctaLink={productHref} ctaLabel="Till produkten" />
       </div>
     </li>
   );
