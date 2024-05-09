@@ -2,7 +2,7 @@ import { gql } from '@apollo/client';
 import {
   ContentWrapper,
   Footer,
-  Header,
+ HeaderSD,
   Main,
   NavigationMenu,
   ProductSection,
@@ -28,22 +28,24 @@ export default function Component(props) {
   return (
     <>
       <SEO title={siteTitle} description={siteDescription} />
-      <Header
-        title={siteTitle}
-        description={siteDescription}
+      <HeaderSD
+        // title={siteTitle}
+        title='Support Design - Stolar med kvalitet'
+        // description={siteDescription}
+        description='Kvalitetshantverk från Sunne i Värmland'
         menuItems={primaryMenu}
       />
       <Main>
         <ContentWrapper content={content} />
-        <ProductSection heading="New Arrivals" products={latestProducts} />
+        <ProductSection heading="Sadelstolar" products={latestProducts} />
         <TestimonialsSection />
-        <ProductSection heading="On Sale" products={saleProducts} />
+        <ProductSection heading="Sadelstolar med rygg" products={saleProducts} />
         <PromoSection
           showCta
           ctaLink="/about"
           ctaLabel="About"
-          title="Promo Banners"
-          description="You can use this component to promote articles or specific products. And optionally add a CTA below."
+          title="Call To Action Area"
+          description="Använd denna komponent för att promota artiklar och lägg till en CTA nedanför"
         />
       </Main>
       <Footer title={siteTitle} menuItems={footerMenu} />

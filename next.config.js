@@ -10,6 +10,8 @@ module.exports = withFaust({
   },
   images: {
     domains: [getWpHostname()],
+    // path: '/assets/img/', // Custom path (only needed if you're not using the 'public' directory)
+    loader: 'default' // This uses Next.js' built-in image optimization loader
   },
   i18n: {
     locales: ['en'],

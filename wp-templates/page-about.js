@@ -8,7 +8,7 @@ import {
   ContentWrapper,
   NavigationMenu,
   FeaturedImage,
-  SEO,
+  SEO
 } from '../components';
 
 export default function Component(props) {
@@ -18,7 +18,7 @@ export default function Component(props) {
   }
 
   const { title: siteTitle, description: siteDescription } =
-    props?.data?.generalSettings ?? {};
+  props?.data?.generalSettings ?? {};
   const primaryMenu = props?.data?.headerMenuItems?.nodes ?? [];
   const footerMenu = props?.data?.footerMenuItems?.nodes ?? [];
   const { content, featuredImage } = props?.data?.page ?? { title: '' };
@@ -36,8 +36,9 @@ export default function Component(props) {
         menuItems={primaryMenu}
       />
       <Main>
-
+        <h1 className="text-cyan-500 text-4xl">This is page about!!!!!</h1>
         <ContentWrapper content={content} />
+        <h1>Hej alla glada , denna sida laddas.</h1>
       </Main>
       <Footer title={siteTitle} menuItems={footerMenu} />
     </>
