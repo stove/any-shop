@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4604532-bab3-420e-91d7-380fec953e01" name="Changes" comment="first go...">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ProductCard/ProductCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductCard/ProductCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ProductCard/ProductCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductCard/ProductCard.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/product/[handle].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product/[handle].js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715109167924</updated>
       <workItem from="1715109170158" duration="20810000" />
-      <workItem from="1715243272616" duration="19676000" />
+      <workItem from="1715243272616" duration="19776000" />
     </task>
     <task id="LOCAL−00001" summary="First commit.">
       <option name="closed" value="true" />
@@ -148,7 +146,14 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1715282264518</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="first go...">
+      <option name="closed" value="true" />
+      <created>1715283214018</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1715283214018</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

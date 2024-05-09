@@ -1,6 +1,6 @@
 import { gql, useQuery, ApolloProvider } from '@apollo/client';
 import { getNextStaticProps } from '@faustwp/core';
-import shopifyClient from '../../utilities/shopifyClient';
+import shopifyClient from '../../utilities/wooClient';
 import { ShopifyCartProvider } from '../../hooks/useShopifyCart';
 import { GET_PRODUCT } from '../../queries/Products';
 import * as MENUS from '../../constants/menus';
